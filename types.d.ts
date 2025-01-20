@@ -7,11 +7,12 @@ interface Book {
   totalCopies: number;
   availableCopies: number;
   description: string;
-  color: string;
-  cover: string;
-  video: string;
+  coverColor: string;
+  coverUrl: string;
+  videoUrl: string;
   summary: string;
-  isLoanedBook: boolean;
+  createdAt: Date | null;
+  // isLoanedBook: boolean;
 }
 
 interface AuthCredentials {

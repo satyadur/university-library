@@ -26,6 +26,11 @@ const bebasNeue = localFont({
 export const metadata: Metadata = {
   title: "BookWizard",
   description: "BookWise is a book borrowing library management solution.",
+  icons: {
+    icon: "/favicon.ico", // Path to your favicon
+    shortcut: "/favicon.ico", // Optional: Shortcut icon
+    apple: "/favicon.ico", // Optional: Apple touch icon
+  },
 };
 
 
